@@ -11,7 +11,7 @@
     "src/"
   ],
   "name": "textlint-rule-prefer-tari-tari",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "「〜たり〜たりする」をチェックするtextlintルール",
   "main": "lib/textlint-rule-prefer-tari-tari.js",
   "scripts": {
@@ -56,6 +56,6 @@
     "nlcst-pattern-match": "^1.3.3",
     "nlcst-to-string": "^2.0.1",
     "textlint-rule-helper": "^2.0.0",
-    "textlint-util-to-string": "^2.1.1"
+    "textlint-util-to-string": "^3.1.1"
   }
 }

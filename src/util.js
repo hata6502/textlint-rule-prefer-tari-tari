@@ -1,7 +1,7 @@
 // MIT © 2017 azu
 "use strict";
 const { IgnoreNodeManager } = require("textlint-rule-helper");
-const StringSource = require("textlint-util-to-string");
+const { StringSource } = require("textlint-util-to-string");
 export const paragraphReporter = ({ node, ignoreNodeTypes, context }) => {
     const originalText = context.getSource(node);
     const source = new StringSource(node);

@@ -4,7 +4,7 @@ import { JapaneseParser } from "nlcst-parse-japanese";
 import { match, PatternMatcher } from "nlcst-pattern-match";
 
 const japaneseParser = new JapaneseParser();
-const StringSource = require("textlint-util-to-string");
+const { StringSource } = require("textlint-util-to-string");
 const nlcstToString = require("nlcst-to-string");
 // definition
 const 動詞 = {
